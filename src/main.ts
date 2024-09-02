@@ -1,3 +1,8 @@
-import "./style.css";
+interface Grupo {
+    nombreGrupo: string;
+    añoFundacion: number;
+    activo: boolean;
+    genero: string;
+}
 
-console.log("Hello Typescript!");
+
